@@ -9,7 +9,6 @@ Scene.prototype._loadSong = function(){
   var songIndex = Math.floor(Math.random() * songs.length);
   var context = this;
   if(this.song != undefined){
-    console.log("HERE");
     new NetworkManager().loadAudio(this.song.audio, songs[songIndex].url, function(buffer){
       var source = context.song.audio.createBufferSource();
       source.buffer = buffer;
@@ -24,7 +23,7 @@ Scene.prototype._loadSong = function(){
     this.song = new Audio(songs[songIndex].url, new NetworkManager());
   }
   var album = songs[songIndex].album ? " from " + songs[songIndex].album: "";
-  createNotification(songs[songIndex].name, songs[songIndex].artist + album, 6);
+  NotificationManager.create(songs[songIndex].name, songs[songIndex].artist + album, 6);
   setTimeout(function(){context._loadSong();}, songs[songIndex].length * 1000);
 };
 
