@@ -28,29 +28,77 @@ var GAME_MASTER = {
     entity_spawn_rate: 0.5,
     songs: [
       {
-      url: "audio/Jingle Bells.mp3",
-      artist: "Scott Holmes",
+      url: "audio/Jingle_Bells.mp3",
+      artist: "Kevin MacLeod",
       name: "Jingle Bells",
-      album: undefined,
-      length: 151
+      album: "YouTube Audio Library",
+      length: 104
     }, {
-      url: "audio/Silent Night.mp3",
-      artist: "Maya Solovéy",
+      url: "audio/Silent_Night_Vocals.mp3",
+      artist: "Jingle Punks",
       name: "Silent Night",
-      album: "Midwinter",
-      length: 268
+      album: "YouTube Audio Library",
+      length: 138
     }, {
-      url: "audio/Deck the Halls.mp3",
-      artist: "ovenrake",
+      url: "audio/Deck_the_Halls_B.mp3",
+      artist: "Kevin MacLeod",
       name: "Deck the Halls",
-      album: "XMAS Compilation 2010",
-      length: 92
+      album: "YouTube Audio Library",
+      length: 267
+    }, {
+      url: "audio/Angels_We_Have_Heard.mp3",
+      artist: "Kevin MacLeod",
+      name: "Angels We Have Heard",
+      album: "YouTube Audio Library",
+      length: 246
+    }, {
+      url: "audio/Bethlehem_Christmas.mp3",
+      artist: "Kevin MacLeod",
+      name: "Bethlehem - Christmas",
+      album: "YouTube Audio Library",
+      length: 108
     }, {
       url: "audio/Silver Bells.mp3",
       artist: "Nestrogen",
       name: "Silver Bells",
       album: "XMAS Compilation 2010",
-      length: 86
+      length: 88
+    }, {
+      url: "audio/Joy_to_the_World_Instrumental.mp3",
+      artist: "Jingle Punks",
+      name: "Joy to the World",
+      album: "YouTube Audio Library",
+      length: 148
+    }, {
+      url: "audio/Noel.mp3",
+      artist: "Audionautix",
+      name: "Noel",
+      album: "YouTube Audio Library",
+      length: 54
+    }, {
+      url: "audio/We_Wish_You_A_Merry_Xmas.mp3",
+      artist: "Audionautix",
+      name: "We Wish You A Merry Xmas",
+      album: "YouTube Audio Library",
+      length: 56
+    }, {
+      url: "audio/O_Christmas_Tree_Instrumental.mp3",
+      artist: "Jingle Punks",
+      name: "O Christmas Tree (Instrumental)",
+      album: "YouTube Audio Library",
+      length: 165
+    }, {
+      url: "audio/O_Come_All_Ye_Faithful_Instrumental.mp3",
+      artist: "Jingle Punks",
+      name: "O Come All Ye Faithful (Instrumental)",
+      album: "YouTube Audio Library",
+      length: 197
+    }, {
+      url: "audio/Hark_the_Herald_Angels_Sing_Instrumental.mp3",
+      artist: "Jingle Punks",
+      name: "Hark the Herald Angels Sing (Instrumental)",
+      album: "YouTube Audio Library",
+      length: 139
     }],
     song_analysis: {
         output_bins: 1024

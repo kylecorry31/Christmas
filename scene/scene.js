@@ -23,7 +23,8 @@ Scene.prototype._loadSong = function(){
   } else {
     this.song = new Audio(songs[songIndex].url, new NetworkManager());
   }
-  console.log("Playing " + songs[songIndex].name + " by " + songs[songIndex].artist);
+  var album = songs[songIndex].album ? " from " + songs[songIndex].album: "";
+  createNotification(songs[songIndex].name, songs[songIndex].artist + album, 6);
   setTimeout(function(){context._loadSong();}, songs[songIndex].length * 1000);
 };
 
