@@ -1,0 +1,3 @@
+[submodule "libs/Notifications"]
+	path = libs/Notifications
+	url = https://github.com/kylecorry31/Notifications
